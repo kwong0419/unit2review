@@ -7,21 +7,19 @@
     <link rel="stylesheet" type="text/css" href="./giphy.css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="./giphy.js"></script>
-    <title>GIPHY</title>
+    <title>Look for GIFS</title>
 </head>
 <body>
 
     <form>
-        <input type="text"></input>
+        <input type="text" id="userInput">
         <select>
-            <option disabled selected></option>
+            <option value="0" disabled selected></option>
         </select>
-        <input type="submit"></input>
+        <input type="submit" value="Search" id="submit">
     </form>
 
-    <div class="content">
-
-    </div>
+    <div class="content"></div>
 
 </body>
 </html>
